@@ -20,7 +20,7 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body className={imprima.className}>
-                <main className="max-w-4xl p-4 mx-auto">{children}</main>
+                <main className="max-w-5xl p-4 mx-auto">{children}</main>
             </body>
         </html>
     );
