@@ -1,3 +1,39 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+    border: 1px solid rgba(30, 30, 30, 0.8);
+    padding: 0.5rem 1rem;
+    background-color: rgba(239, 236, 236, 0.5);
+    display: block;
+    width: 100%;
+    margin: 1rem 0;
+    border-radius: 0.75rem;
+}
+
+button {
+    display: block;
+    width: 100%;
+    color: rgba(30, 30, 30, 0.8);
+    font-weight: 600;
+    border: 1px solid rgba(30, 30, 30, 0.8);
+    border-radius: 0.75rem;
+    padding: 0.5rem 1.5rem;
+}
+
+button[type="submit"],
+button.submit {
+    border: 0;
+    background-color: #fc6736;
+    color: #efecec;
+    transition: all;
+    transition-duration: 300ms;
+}
+
+button[type="submit"]:hover,
+button.submit:hover {
+    background-color: #8f3e24;
+}

@@ -7,7 +7,7 @@ import About from "./components/layout/About";
 export default function Home() {
     return (
         <>
-            <Header />
+            
             <Hero />
             <HomeMenu />
             <About />
@@ -25,9 +25,7 @@ export default function Home() {
                     </a>
                 </div>
             </section>
-            <footer className="border-t-2 p-8 text-center text-black/80 mt-16">
-                &copy; {new Date().getFullYear()} Todos los derechos reservados
-            </footer>
+            
         </>
     );
 }
