@@ -14,6 +14,14 @@ input[type="text"] {
     border-radius: 0.75rem;
 }
 
+input[type="email"]:disabled,
+input[type="password"]:disabled,
+input[type="text"]:disabled {
+    background-color: rgba(239, 236, 236, 0.7);
+    color: rgba(30, 30, 30, 0.5);
+    cursor: not-allowed;
+}
+
 button {
     display: block;
     width: 100%;
@@ -36,4 +44,10 @@ button.submit {
 button[type="submit"]:hover,
 button.submit:hover {
     background-color: #8f3e24;
+}
+
+button[type="submit"]:disabled,
+button.submit:disabled {
+    background-color: #8f3e24;
+    cursor: not-allowed;
 }
